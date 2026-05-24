@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martinez Graphics</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0f0f1a;
+      color:#fff;
+    }
+
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px;
+      background:#111827;
+      position:sticky;
+      top:0;
+    }
+
+    header h1{
+      color:#ff3d81;
+    }
+
+    nav a{
+      color:#fff;
+      margin-left:15px;
+      text-decoration:none;
+    }
+
+    .hero{
+      text-align:center;
+      padding:80px 20px;
+      background:linear-gradient(135deg,#ff3d81,#7c3aed);
+    }
+
+    .hero h2{
+      font-size:32px;
+      margin-bottom:10px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 18px;
+      background:#000;
+      color:#fff;
+      border-radius:8px;
+      text-decoration:none;
+    }
+
+    section{
+      padding:50px 20px;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:15px;
+    }
+
+    .card{
+      background:#1f2937;
+      padding:20px;
+      border-radius:10px;
+    }
+
+    .portfolio{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:15px;
+    }
+
+    .portfolio div{
+      background:#222;
+      height:150px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:10px;
+      color:#888;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#111827;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Martinez Graphics</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>We Design Posters That Bring You Customers</h2>
+  <p>High-quality flyers, banners, branding and social media designs.</p>
+  <a class="btn" href="#contact">Get Started</a>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Flyer & Poster Design</div>
+    <div class="card">Business Branding</div>
+    <div class="card">Graduation Banners</div>
+    <div class="card">Social Media Ads</div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div>Sample 1</div>
+    <div>Sample 2</div>
+    <div>Sample 3</div>
+    <div>Sample 4</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Let’s work together to grow your brand.</p>
+  <a class="btn" href="#">Send Message</a>
+</section>
+
+<footer>
+  © 2026 Martinez Graphics
+</footer>
+
+</body>
+</html>
